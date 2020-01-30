@@ -5,196 +5,196 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--    Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/codeup-desgin.css">
-    <title>Codeup Design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/design-project-local.css">
+    <title>Hello, world!</title>
 </head>
 <body>
-<h1>Codeup Design</h1>
+<header class="text-center">
+    <img class="rounded-circle" src="assets/logo.jpg" height="105px" width="105px">
+    <h5>codeup design</h5>
+</header>
+<!--Nav bar placeholder-->
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+<!--END of nav bar placeholder-->
 
+<!--title and sub-title rows-->
 <div class="container">
-
-    <div class="row">
-
-<!--Navbar Place Holder-->
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-    </ul>
-<!--Navbar PLace holder end-->
-
-<!--Second Header start-->
-    <div class="col-12" style="background-color: grey;" id="left-side">
-        <div>
-            <p>Place holder text</p>
+    <div class="row" id="title-row">
+        <div class="col-12 text-center">
+            <h1 id="title-header">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+            <h2 id="sub-title-header">FROM PARK CITY, UTAH</h2>
         </div>
     </div>
-    <div class="col-12" style="background-color: lightblue;" id="left-side">
-        <div>
-            <p>Place holder text</p>
+    <!-- end of title and sub-title rows-->
+    <!--colored circles/buttons row   -->
+
+    <div class="row text-center circle-container" id="circle-row">
+        <div class="col-6 col-md-3 circle1 rounded-circle">
+            <h2>DESIGN</h2>
+        </div>
+        <div class="col-6 col-md-3 circle2 rounded-circle">
+            <h2>DEVELOP</h2>
+        </div>
+        <div class="col-6 col-md-3 circle3 rounded-circle">
+            <h2>SUPPORT</h2>
+        </div>
+        <div class="col-6 col-md-3 circle4 rounded-circle">
+            <h2>HOST</h2>
         </div>
     </div>
-<!--Second header end-->
 
-<!--CIRCLE START-->
-    <div class="col-12" style="background-color: grey;" id="left-side">
-    <div class="card" style="display: flex; justify-content: flex-start; width: 18rem;">
-        <img src="..." alt="..." class="rounded-circle">
+    <!--    end of colored circles-->
+    <hr>
+
+    <!--    featured projects-->
+    <div class="row text-center">
+        <div class="col-12 col-sm-6 col-md-4 ">
+            <div class="card mb-3">
+                <img src="images/apple-ipad.jpg" class="card-img-top" alt="Apple iPad">
+                <div class="card-body d-flex">
+                    <p class="card-text text-left">FEATURED PROJECT</p>
+                    <div class="d-flex ml-auto">
+                        <button type="button" class="btn button-1 rounded-circle">D</button>
+                        <button type="button" class="btn button-2 rounded-circle">D</button>
+                        <button type="button" class="btn button-3 rounded-circle">S</button>
+                        <button type="button" class="btn button-4 rounded-circle">H</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="images/man.jpg" class="card-img-top" alt="Man with glasses">
+                <div class="card-body d-flex">
+                    <p class="card-text text-left">FEATURED PROJECT</p>
+                    <div class="d-flex ml-auto">
+                        <button type="button" class="btn button-1 rounded-circle">D</button>
+                        <button type="button" class="btn button-2 rounded-circle">D</button>
+                        <button type="button" class="btn button-3 rounded-circle">S</button>
+                        <button type="button" class="btn button-4 rounded-circle">H</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-3">
+                <img src="images/macbook.jpg" class="card-img-top" alt="Macbook">
+                <div class="card-body d-flex">
+                    <p class="card-text text-left">FEATURED PROJECT</p>
+                    <div class="d-flex ml-auto">
+                        <button type="button" class="btn button-1 rounded-circle">D</button>
+                        <button type="button" class="btn button-2 rounded-circle">D</button>
+                        <button type="button" class="btn button-3 rounded-circle">S</button>
+                        <button type="button" class="btn button-4 rounded-circle">H</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="images/security.jpg" class="card-img-top" alt="security picture">
+                <div class="card-body d-flex">
+                    <p class="card-text text-left">FEATURED PROJECT</p>
+                    <div class="d-flex ml-auto">
+                        <button type="button" class="btn button-1 rounded-circle">D</button>
+                        <button type="button" class="btn button-2 rounded-circle">D</button>
+                        <button type="button" class="btn button-3 rounded-circle">S</button>
+                        <button type="button" class="btn button-4 rounded-circle">H</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--This part of the code displays on right sidebar when view is at medium or higher; will not show up in small or x small-->
+        <div class="col-12 col-sm-3 col-md-4 d-none d-sm-blockd-sm-none d-md-block">
+
+            <div class="card mb-3 d-flex flex-row" style="max-width: 540px;">
+                <!--                <div class="row no-gutters">-->
+                <div class="col-md-4">
+                    <img src="images/mobile-phone.jpg" class="card-img-top" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body m-0">
+                        <h5 class="card-title">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+                        <!--                            <p class="card-text">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 d-flex flex-row" style="max-width: 540px;">
+                <!--                    <div class="row no-gutters">-->
+                <div class="col-md-4">
+                    <img src="images/head.jpg" class="card-img-top" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">NIBBLER AWESOME WEBSITE TESTING</h5>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 d-flex flex-row" style="max-width: 540px;">
+                <!--                        <div class="row no-gutters">-->
+                <div class="col-md-4">
+                    <img src="images/ipad.jpg" class="card-img-top" class="card-img-top" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">HOW TO GET GOOGLE TO LIKE YOU</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--            <div class="card mb-3">-->
+        <!--                <div style="margin-bottom: 1em">-->
+        <!--                    <img src="images/mobile-phone.jpg" class="card-img-top" alt="mobile phone">-->
+        <!--                    <div>-->
+        <!--                        <p>Place Holder</p>-->
+        <!--                    </div>-->
+        <!--                    <img src="images/head.jpg" class="card-img-top" alt="picture of face head">-->
+        <!--                    <div>-->
+        <!--                        <p>Place Holder</p>-->
+        <!--                    </div>-->
+        <!--                    <img src="images/ipad.jpg" class="card-img-top" alt="iPad tablet">-->
+        <!--                    <div>-->
+        <!--                        <p>Place Holder</p>-->
+        <!--                    </div>-->
+        <!--                </div>-->
     </div>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="rounded-circle"><
-    </div>
-    <div class="card" style="display: flex; justify-content: flex-start; width: 18rem;">
-        <img src="..." alt="..." class="rounded-circle">
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="..." alt="..." class="rounded-circle">
-    </div>
+    <!--        end of SIDEBAR code-->
 </div>
-<!--CIRCLE END-->
+<!-- END of featured projects-->
 
-<!--SELECTED WORK HEADER-->
-    <div class="col-12" style="background-color: lightblue;">
-        <div>
-            <p>SELECTED WORK</p>
-        </div>
-    </div>
-<!--SELECTED WORK HEADER END-->
+<
 
-<!--    adding row for the selected work images to create 3rd row when in larger view-->
+</div>  <!-- END OF CONTAINER -->
 
 
-
-<!--Selected work images start-->
-<!--        <div class="col-xl-8"-->
-    <div class="col-12 col-xl-6 col-md-4">
-<!--    <div class="card-deck">-->
-        <div class="mx-auto" style="width: 100%">
-        <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-
-<!--    </div>-->
-        <br>
-<!--        <div class="card-deck">-->
-<!--            <div class="card">-->
-<!--                <img class="card-img-top" src="..." alt="Card image cap">-->
-<!--                <div class="card-body">-->
-<!--                    <h5 class="card-title">Card title</h5>-->
-<!--                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
-<!--                </div>-->
-<!--                <div class="card-footer">-->
-<!--                    <small class="text-muted">Last updated 3 mins ago</small>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="card">-->
-<!--                <img class="card-img-top" src="..." alt="Card image cap">-->
-<!--                <div class="card-body">-->
-<!--                    <h5 class="card-title">Card title</h5>-->
-<!--                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>-->
-<!--                </div>-->
-<!--                <div class="card-footer">-->
-<!--                    <small class="text-muted">Last updated 3 mins ago</small>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-    </div>
-<!--RIGHT SIDE NAV START-->
-    <div class="col col-lg-4">
-        <div class="col-sm-4" id="right-side">
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--        <div class="card-deck">-->
-<!--            <div class="card">-->
-<!--                <img class="card-img-top" src="..." alt="Card image cap">-->
-<!--                <div class="card-body">-->
-<!--                    <h5 class="card-title">Card title</h5>-->
-<!--                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
-<!--                </div>-->
-<!--                <div class="card-footer">-->
-<!--                    <small class="text-muted">Last updated 3 mins ago</small>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="card">-->
-<!--                <img class="card-img-top" src="..." alt="Card image cap">-->
-<!--                <div class="card-body">-->
-<!--                    <h5 class="card-title">Card title</h5>-->
-<!--                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>-->
-<!--                </div>-->
-<!--                <div class="card-footer">-->
-<!--                    <small class="text-muted">Last updated 3 mins ago</small>-->
-<!--                </div>-->
-<!--            </div>-->
-
-
-        <!--Selected work images end-->
-
-
-</div>
-
-</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
