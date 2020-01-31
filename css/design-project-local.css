@@ -14,9 +14,12 @@ body {
 .circle1 {
     background-color: #E6563B;
     color: white;
-    padding: 40px 40px 40px 40px;
-    margin: 0 auto;
+    border-radius: 50%;
+    /*padding: 40px 40px 40px 40px;*/
+    /*margin: 0 auto;*/
     border: white solid 10px;
+    height: 150px;
+    width: 150px;
 
 
 }
@@ -24,25 +27,34 @@ body {
 .circle2 {
     background-color: #EB9D3A;
     color: white;
-    padding: 40px 40px 40px 40px;
-
+    border-radius: 50%;
+    /*padding: 40px 40px 40px 40px;*/
+    /*margin: 0 auto;*/
     border: white solid 10px;
+    height: 150px;
+    width: 150px;
 }
 
 .circle3 {
     background-color: #7CB06B;
     color: white;
-    padding: 40px 40px 40px 40px;
-    margin: auto;
+    border-radius: 50%;
+    /*padding: 40px 40px 40px 40px;*/
+    /*margin: 0 auto;*/
     border: white solid 10px;
+    height: 150px;
+    width: 150px;
 }
 
 .circle4 {
     background-color: #00ABA9;
     color: white;
-    padding: 40px 40px 40px 40px;
-    margin: auto;
+    border-radius: 50%;
+    /*padding: 40px 40px 40px 40px;*/
+    /*margin: 0 auto;*/
     border: white solid 10px;
+    height: 150px;
+    width: 150px;
 }
 
 /*area that holds where the 4 colored circles are located*/
