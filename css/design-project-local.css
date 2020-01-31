@@ -100,6 +100,10 @@ body {
     z-index: -1;
 }
 
+.nav-link {
+    font-size: x-large;
+    color: black;
+}
 
 /*.icon {*/
 /*    padding: 4px 8px 4px 8px;*/
