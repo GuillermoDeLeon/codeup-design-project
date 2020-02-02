@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!--    TEST 2 -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,30 +15,74 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<!--Logo -->
-<header class="text-center col-xl-3">
+<!--Header with Logo and nav bar -- XS/mobile view-->
+<header class="text-center d-block d-sm-none">
     <img class="rounded-circle" src="assets/logo.jpg" height="105px" width="105px">
-    <h5>codeup design</h5>
+    <div id="codeup-text">codeup design</div>
+    <div class="blank-banner col-md-12"></div>
+
+    <!--Nav bar links-->
+    <div class="d-flex justify-content-center col-12">
+        <a class="nav-link" href="#">SERVICES</a>
+        <a class="nav-link" href="#">WORK</a>
+        <a class="nav-link" href="#">BLOG</a>
+        <a class="nav-link" href="#">CONTACT</a>
+    </div>
+
 </header>
-<div class="blank-banner col-md-12"></div>
-<!--End of logo area-->
+<!--END of header with logo and nav bar -- XS/mobile view-->
 
-<!--Nav bar links-->
+<!--Header with Logo and nav bar -- small view-->
+<header class="text-center d-none d-sm-block d-md-none">
+    <div class="blank-banner col-12"></div>
 
-<div class="d-flex p-2 justify-content-center col-12">
+    <!--Nav bar links-->
+    <div class="d-flex justify-content-center align-items-center col-12">
+        <a class="nav-link" href="#">SERVICES</a>
+        <a class="nav-link" href="#">WORK</a>
 
-        <div class="nav d-flex justify-content-left col- 2 col-sm-6">
-                    <a class="nav-link" href="#">SERVICES</a>
-                    <a class="nav-link" href="#">WORK</a>
+        <img class="rounded-circle" src="assets/logo.jpg" height="105px" width="105px">
+
+        <a class="nav-link" href="#">BLOG</a>
+        <a class="nav-link" href="#">CONTACT</a>
+    </div>
+    <div  id="codeup-text">codeup design</div>
+</header>
+<!--END of header with Logo and nav bar -- small view-->
+
+<!--header with logo and nav bar -- medium and large view-->
+<header class="d-none d-md-block d-lg-none  d-lg-block d-xl-none">
+    <div class="blank-banner col-12">
+        <div class="d-flex p-2 justify-content-end">
+            <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link" href="#">WORK</a>
+            <a class="nav-link" href="#">BLOG</a>
+            <a class="nav-link" href="#">CONTACT</a>
         </div>
+    </div>
+    <div class="d-flex align-items-center">
+        <img class="rounded-circle" src="assets/logo.jpg" height="105px" width="105px">
+        <div class="mb-3 bg-white" id="codeup-text">codeup design</div>
+    </div>
+</header>
+<!--END header with logo and nav bar --vmedium  and large view-->
 
-    <div class="d-flex flex-row-reverse">
-                    <a class="nav-link" href="#">BLOG</a>
-                    <a class="nav-link" href="#">CONTACT</a>
-</div>
-
-</div>
-<!--END of nav bar links-->
+<!--header with logo and nav bar -- XL view-->
+<header class="d-none d-xl-block">
+    <div class="blank-banner col-12">
+        <div class="d-flex p-2 justify-content-end">
+            <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link" href="#">WORK</a>
+            <a class="nav-link" href="#">BLOG</a>
+            <a class="nav-link" href="#">CONTACT</a>
+        </div>
+    </div>
+    <div class="d-flex align-items-center">
+        <img class="rounded-circle" src="assets/logo.jpg" height="105px" width="105px">
+        <div class="mb-3 bg-white" id="codeup-text">codeup design XL</div>
+    </div>
+</header>
+<!--END header with logo and nav bar -- XL view-->
 
 <!--title and sub-title rows-->
 <div class="container">
@@ -137,7 +180,7 @@
                     <img src="images/mobile-phone.jpg" class="card-img-top" class="card-img" alt="...">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-body m-0">
+                    <div class="card-body m-0 p-0">
                         <h5 class="card-title">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
                         <!--                            <p class="card-text">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>-->
                     </div>
@@ -150,7 +193,7 @@
                     <img src="images/head.jpg" class="card-img-top" class="card-img" alt="...">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body m-0 p-0">
                         <h5 class="card-title">NIBBLER AWESOME WEBSITE TESTING</h5>
 
                     </div>
@@ -163,7 +206,7 @@
                     <img src="images/ipad.jpg" class="card-img-top" class="card-img-top" class="card-img" alt="...">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body m-0 p-0">
                         <h5 class="card-title">HOW TO GET GOOGLE TO LIKE YOU</h5>
 
                     </div>
